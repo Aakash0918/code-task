@@ -34,6 +34,10 @@ run your server
 
 Postman Collection API URL: https://api.postman.com/collections/10359866-45174c13-798d-4e2e-bf36-10dc6276a9df?access_key=PMAT-01H5S747ANW7FBXD25A6EH7QAC
 
+In Postman Collection their two collection variable BASEURL=>localhost:8080 AND token=>eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMSIsInJvbGUiOiJ3cml0ZXIiLCJpYXQiOjE2ODk4MzUyOTMsImV4cCI6MTY5MjQyNzI5M30.a9FwsnXErycp07N1xF_Bxjkde9OUEQWh1HcKYRfPoFM
+
+Kindly change as per your Environment.
+
 General Status Code
 1. 405 => Request method not Allowed (Try to access post by get method)
 
