@@ -1,5 +1,6 @@
 # code-task
-1. Whenever you create an application, you have to find a way to organize the code to make it simple to locate the proper files and make it simple to maintain. Like most of the web frameworks, CodeIgniter uses the Model, View, Controller (MVC) pattern to organize the files. This keeps the data, the presentation, and flow through the application as separate parts.
+# MVC Demostration
+Whenever you create an application, you have to find a way to organize the code to make it simple to locate the proper files and make it simple to maintain. Like most of the web frameworks, CodeIgniter uses the Model, View, Controller (MVC) pattern to organize the files. This keeps the data, the presentation, and flow through the application as separate parts.
 
 It should be noted that there are many views on the exact roles of each element, but this document describes our take on it. If you think of it differently, you’re free to modify how you use each piece as you need.
 
@@ -13,7 +14,9 @@ At their most basic, controllers and models are simply classes that have a speci
 
 
 2. Installation Guide 
+
 PHP Version >= 7.4.x
+
 2.1 By Composer
 run cmd: git clone https://github.com/Aakash0918/code-taskfrom
 Upload database sql file(code_test.sql) and establish connection in .env file
@@ -33,12 +36,14 @@ Postman Collection API URL: https://api.postman.com/collections/10359866-45174c1
 
 General Status Code
 1. 405 => Request method not Allowed (Try to access post by get method)
+
 {
     "status": false,
     "message": "The requested action is not allowed."
 }
 
 2. 400 => Formerror or Url parameter Error
+
 {
     "status": false,
     "message": "Validation error occurs.",
@@ -48,30 +53,35 @@ General Status Code
 }
 
 3. 429 => Throttler(In 1 minute accept 60 request from single IP)
+
 {
     "status": false,
     "message": "Too many request",
 }
 
 4. 401 => Token Error
+
 {
     "status": false,
     "message": "Access Denied.",
 }
 
 5. 403 => Access forbidden(Occurs when editor try to access writer node points)
+
 {
     "status": false,
     "message": "Access frobidden.",
 }
 
 6. 500 => Internal server error occurs. (Contact to support)
+
 {
     "status": false,
     "message": "Internal server error occurs.",
 }
 
 7. 200 => on Successfully 
+
 {
     "status": true,
     "message": "Login successful.",
